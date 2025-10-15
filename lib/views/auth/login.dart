@@ -5,6 +5,21 @@ class Login extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.start,
+
+          children: [
+            Spacer(flex: 1),
+            Text(
+              'LOGIN !',
+              style: TextStyle(fontFamily: 'Nectarine', fontSize: 70),
+            ),
+            Spacer(flex: 3),
+          ],
+        ),
+      ),
+    );
   }
 }
